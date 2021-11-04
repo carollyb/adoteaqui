@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@600&display=swap');
+
+#cabecalho {
+    font-family: "Roboto Mono", monospace;
+    background-color: rgba(128, 128, 128, 0.425);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+}
+
+.demais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    background-color: rgba(116, 100, 29, 0.623);
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.quadrado {
+    margin: 5px;
+    font-family: 'DM Serif Display', serif;;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.247);
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.dados {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media (max-width: 700px) {
+    #cabecalho {
+        height: auto;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    a {
+        padding: 20px;
+    }
+
+    .demais {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    }
+
+}
+
+#cabecalho > h2:hover {
+    font-size: 30px;
+}
+
+.home:hover {
+    color:rgba(116, 100, 29, 0.623);
+}
+
+.sobre:hover {
+    color:rgba(116, 100, 29, 0.623);
+}
+
+.contato:hover {
+    color:rgba(116, 100, 29, 0.623);
+}
