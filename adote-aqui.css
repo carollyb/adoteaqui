@@ -45,6 +45,11 @@
     flex-flow: column nowrap;
 }
 
+img {
+    width: 200px;
+    height: auto;
+}
+
 @media (max-width: 700px) {
     #cabecalho {
         height: auto;
@@ -63,6 +68,11 @@
     justify-content: space-evenly;
     align-items: center;
     width: auto;
+    }
+
+    #container {
+        display: flex;
+        flex-flow: column nowrap;
     }
 
 }
