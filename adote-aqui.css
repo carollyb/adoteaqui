@@ -48,9 +48,11 @@
 img {
     width: 200px;
     height: auto;
+    transition: width 1s;
 }
 
 @media (max-width: 700px) {
+
     #cabecalho {
         height: auto;
     }
@@ -91,4 +93,8 @@ img {
 
 .contato:hover {
     color:rgba(116, 100, 29, 0.623);
+}
+
+img:hover {
+    width: 210px;
 }
