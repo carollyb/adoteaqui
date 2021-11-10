@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@600&display=swap');
 
 #cabecalho {
-    font-family: "Roboto Mono", monospace;
-    background-color: rgba(128, 128, 128, 0.425);
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color:white;
+    background-color: 		rgb(184, 228, 220);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .demais {
@@ -16,8 +19,40 @@
     flex-direction: row;
     justify-content: space-between;
     width: 400px;
-    background-color: rgba(116, 100, 29, 0.623);
+    background-color: rgb(252, 174, 129);
     padding: 10px;
+    border-radius: 5px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    background-image: url(./backgroundggg.png);
+    background-size: cover;
+    font-family: 'DM Serif Display', serif;
+    background-repeat: no-repeat;
+}
+
+.p1 {
+    width: 400px;
+    font-size: 50px;
+    color: white;
+}
+
+.p2 {
+    font-family: "Helvetica";
+    width: 300px;
+    font-size: 25px;
+    color: white;
+}
+
+.imagemdog {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #container {
@@ -28,16 +63,18 @@
 
 .quadrado {
     margin: 5px;
-    font-family: 'DM Serif Display', serif;;
+    font-family: 'DM Serif Display', serif;
+    font-size: 19px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.247);
+    background-color: rgb(252, 174, 129);
     border-radius: 10px;
     width: 400px;
     height: auto;
     padding: 10px;
+    transition: 1s;
 }
 
 .dados {
@@ -45,10 +82,9 @@
     flex-flow: column nowrap;
 }
 
-img {
+.imagens {
     width: 200px;
     height: auto;
-    transition: width 1s;
 }
 
 @media (max-width: 700px) {
@@ -58,6 +94,10 @@ img {
     }
 
     h2 {
+        display: none;
+    }
+    
+    .apresentacao {
         display: none;
     }
 
@@ -80,21 +120,21 @@ img {
 }
 
 #cabecalho > h2:hover {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .home:hover {
-    color:rgba(116, 100, 29, 0.623);
+    color:rgb(238, 205, 176);
 }
 
 .sobre:hover {
-    color:rgba(116, 100, 29, 0.623);
+    color:rgb(238, 205, 176);
 }
 
 .contato:hover {
-    color:rgba(116, 100, 29, 0.623);
+    color:rgb(238, 205, 176);
 }
 
-img:hover {
-    width: 210px;
+.quadrado:hover {
+    background-color: rgb(184, 228, 220);
 }
