@@ -87,6 +87,21 @@
     height: auto;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Helvetica";
+    font-size: 25px;
+    color:white;
+    background-color: 		rgb(184, 228, 220);
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
 @media (max-width: 700px) {
 
     #cabecalho {
