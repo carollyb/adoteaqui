@@ -1,0 +1,3 @@
+adoteaqui
+[ENGLISH VERSION BELOW] Atividade parte do curso de formação Web Development da Resilia Educação, do Módulo I: habilidades em HTML5, CSS3, com uso de media queries, pseudo classes e pseudo elementos.
+Part of Web Development FullStack Bootcamp issued by ResiliaEducação. In this repository, I applied skills acquired during the first two weeks of the first module: Page structure and text formatting with HTML5, styling with CSS3, adapting to smaller screen formats with media queries and special elements states with pseudoclasses.
